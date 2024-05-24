@@ -26,6 +26,9 @@
       pip install -r requirements.txt
       ```
 
+## Data Preparation
+Before running the API, create a directory named `data` and place your `.csv` files within it. This will ensure the API has access to the necessary data for forecasting.
+
 ## Running the API
 
 To start the API, execute the following command:

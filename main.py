@@ -53,8 +53,8 @@ def create_and_predict_model(data: pd.DataFrame, periods: int = 12) -> pd.DataFr
 
 
 # optional unit id
-@app.get("/get_department_expense_forcasts/{department_id}")
-async def get_department_expense_forcasts(
+@app.get("/get_department_expense_forecasts/{department_id}")
+async def get_department_expense_forecasts(
     department_id: int, unit_id: int = None
 ) -> list[dict]:
     data_df = get_data(data_path)
